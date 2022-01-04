@@ -10,6 +10,8 @@ fn main(){
     // create a place to store the user input
     // use mut before variable make a variable mutable
     // immutable variable can not be assign twice
+    // variable is immutable by default
+    // mutable means allow the value be change
     let mut guess = String::new();
 
 
