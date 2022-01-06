@@ -29,4 +29,8 @@ fn main(){
     // {} is a placeholder, first set of curly brackets holds the first value, ans so on
     println!("You guessed {}", guess );
 
+    // first part - get input from keyboard and print it
+    // next part - generate a secret number - user will try to guess
+    // secret number - should different every time, use a random number between 1 - 100
+
 }

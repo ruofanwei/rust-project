@@ -5,4 +5,6 @@ edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
+# tell Cargo which external crates your project depends on
 [dependencies]
+rand = "0.8.3"
