@@ -1,11 +1,19 @@
 // use std::io library
 use std::io;
+use rand::Rng;
 
 // declares a new function
 fn main(){
-    // print
-    println!("guess number");
-    println!("input guess");
+
+    println!("Guess the number!");
+
+    // rand::thread_rng() function give a random number generator
+    // gen_range method - takes a range expression as an argument
+    let secret_number = rand::thread_rng().gen_range(1..101);
+
+    println!("The secret number is: {}", secret_number);
+
+    println!("Please input your guess.");
 
     // create a place to store the user input
     // use mut before variable make a variable mutable
@@ -32,5 +40,6 @@ fn main(){
     // first part - get input from keyboard and print it
     // next part - generate a secret number - user will try to guess
     // secret number - should different every time, use a random number between 1 - 100
+
 
 }
