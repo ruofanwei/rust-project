@@ -1,11 +1,14 @@
 // use std::io library
 use std::io;
 use rand::Rng;
+use std::cmp::Ordering;
 
 // declares a new function
 fn main(){
 
     println!("Guess the number!");
+
+
 
     // rand::thread_rng() function give a random number generator
     // gen_range method - takes a range expression as an argument
@@ -34,6 +37,11 @@ fn main(){
         // handle potential failure with result
         .expect("Failed to read line");
 
+    // use let to allow shadow the previous value of guess with a new one
+    // : after guess - annotate variable type, u32 - 32-bit integer
+    // parse method - parse string into come kind of number
+    let guess: u32 = guess.trim().parse().expect("please type a number");
+
     // {} is a placeholder, first set of curly brackets holds the first value, ans so on
     println!("You guessed {}", guess );
 
@@ -41,5 +49,12 @@ fn main(){
     // next part - generate a secret number - user will try to guess
     // secret number - should different every time, use a random number between 1 - 100
 
-
+    // cmp method compare two value
+    // here compare guess to the secret_number
+    // after cmp method return, match expression
+    match guess.cmp(&secret_number){
+        Ordering::Less => println!("Too small"),
+        Ordering::Greater => println!("Too big"),
+        Ordering::Equal => println!("You win"),
+    }
 }
