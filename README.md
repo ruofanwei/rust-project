@@ -1,4 +1,4 @@
-## Learn Rust
+## 🦀 Learn Rust
 
 ### [Install Rust](https://www.rust-lang.org/tools/install)
 
@@ -18,7 +18,7 @@ $ rustup update
 ```bash
 $ cargo update
 ```
-### compile program and run
+### Compile program and run
 
 after adding the rand crate as a dependency
 ```bash
@@ -29,9 +29,9 @@ $ cargo build
 $ cargo run
 ```
 
-### Learn path 
+### 🚀 Learn path 
 - [rust book](https://doc.rust-lang.org/book/ch00-00-introduction.html)
 - [linked list in Rust](https://rust-unofficial.github.io/too-many-lists/index.html)
 
-#### Track recent learning
+### 🌱 Track recent learning
 [01 Guessing Game](https://github.com/ruofanwei/rust-project/tree/01_guessing_game)
