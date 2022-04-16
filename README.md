@@ -29,8 +29,9 @@ $ cargo build
 $ cargo run
 ```
 
-### [rust book](https://doc.rust-lang.org/book/ch00-00-introduction.html)
+### Learn path 
+- [rust book](https://doc.rust-lang.org/book/ch00-00-introduction.html)
+- [linked list in Rust](https://rust-unofficial.github.io/too-many-lists/index.html)
 
+#### Track recent learning
 [01 Guessing Game](https://github.com/ruofanwei/rust-project/tree/01_guessing_game)
-
-### [linked list in Rust](https://rust-unofficial.github.io/too-many-lists/index.html)
