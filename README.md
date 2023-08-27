@@ -35,5 +35,5 @@ $ cargo run
 - [WebAssembly](https://rustwasm.github.io/docs/book/game-of-life/setup.html)
 
 ### 🌱 Track recent learning
-[01 Guessing Game](https://github.com/ruofanwei/rust-project/tree/01_guessing_game)
-[02 WebAssembly](https://github.com/ruofanwei/rust-project/tree/02_webAssembly)
+- [01 Guessing Game](https://github.com/ruofanwei/rust-project/tree/01_guessing_game)
+- [02 WebAssembly](https://github.com/ruofanwei/rust-project/tree/02_webAssembly)
